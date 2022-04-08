@@ -21,7 +21,7 @@ function Info() {
       <br />
       <br />
       <br />
-      <Link href={`/story/feature1/start/one`}>
+      <Link href={`/story/feature1/start/`}>
         <button className="bg-sky-600 hover:bg-sky-700 px-10 py-1 rounded-md text-white">
           {" "}
           ถัดไป

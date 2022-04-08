@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Welcome() {
   return (
@@ -20,10 +21,12 @@ function Welcome() {
         <br />
         การมารู้จักตัวเองมากขึ้น <br />
         <br />
-        <button className="bg-sky-600 hover:bg-sky-700 px-10 py-1 rounded-md text-white">
-          {" "}
-          ถัดไป
-        </button>
+        <Link href={`/howto`}>
+          <button className="bg-sky-600 hover:bg-sky-700 px-10 py-1 rounded-md text-white">
+            {" "}
+            ถัดไป
+          </button>
+        </Link>
       </center>
     </div>
   );
