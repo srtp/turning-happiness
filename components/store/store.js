@@ -17,6 +17,11 @@ class Store {
     this.names = n;
     console.log(n);
   }
+
+  clearData() {
+    this.character = [];
+    console.log(this.character);
+  }
 }
 
 export const store = new Store();

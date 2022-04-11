@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Nav() {
   return (
@@ -11,24 +12,21 @@ function Nav() {
                 <img src="/logo.png" width={200} alt="logo" />
               </div>
               <div className=" sm:flex sm:items-center">
-                <a
-                  href="#"
-                  className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4"
-                >
-                  Story
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4"
-                >
-                  Question
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4"
-                >
-                  MBTI
-                </a>
+                <Link href={`/story/feature1`}>
+                  <a className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4">
+                    Story
+                  </a>
+                </Link>
+                <Link href={`/story/feature2/start`}>
+                  <a className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4">
+                    Question
+                  </a>
+                </Link>
+                <Link href={`/allcard`}>
+                  <a className="text-gray-800 text-sm font-semibold hover:text-blue-700 mr-4">
+                    MBTI
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

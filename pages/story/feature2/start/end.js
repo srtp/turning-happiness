@@ -1,6 +1,7 @@
 import React from "react";
 import { store } from "../../../../components/store/store";
 import { observer } from "mobx-react-lite";
+import Link from "next/link";
 import Istj from "../../../../components/card/Istj";
 import Infj from "../../../../components/card/Infj";
 import Enfj from "../../../../components/card/enfj";
@@ -58,6 +59,15 @@ const End = observer(() => {
       ) : result == "ISTP" ? (
         <Istp />
       ) : null}
+      <br />
+      <br />
+      <center>
+        <Link href={`/howto`}>
+          <button
+            onClick={() => store.clearData()}
+          >{`>> กลับไปยังหน้าแรก`}</button>
+        </Link>
+      </center>
     </div>
   );
 });
