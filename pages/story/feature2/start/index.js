@@ -9,7 +9,7 @@ function Index() {
           <center>
             <Link href={`/story/feature2/start/q0`}>
               <button className=" bg-pink-400 hover:bg-pink-500 px-20 py-10 rounded-md text-white mb-10">
-                Let's play now
+                {`Let's play now`}
               </button>
             </Link>
           </center>

@@ -9,7 +9,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Prompt"
             rel="stylesheet"
           />
-          <script src="https://kit.fontawesome.com/17de3b6e96.js" ></script>
         </Head>
         <body>
           <Main />

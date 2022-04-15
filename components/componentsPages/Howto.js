@@ -12,7 +12,7 @@ function Howto() {
                 <br /> ลองมาสัมผัสบรรยากาศเหล่านั้นผ่านเนื้อเรื่องของเราดูสิ
                 <br />
                 <br />
-                Let's Play Now !!
+                {`Let's Play Now !!`}
               </button>
             </Link>
             <Link href={`/story/feature2/start`}>
